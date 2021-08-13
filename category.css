@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Changa+One&family=Montserrat:wght@500&display=swap");
+@media (max-width: 480px) {
+  .logoBox {
+    width: 40%;
+    color: aliceblue;
+    border: 1px solid white;
+    margin: 8%;
+    size: 20%;
+    font-size: 4vw;
+  }
+  body {
+    background-color: rgb(8, 8, 8);
+    padding: 5%;
+  }
+  body h1 {
+    padding: 3%;
+    font-size: 12vw;
+    color: aliceblue;
+    font-family: "Changa One";
+  }
+  .category {
+    border-radius: 8px;
+    border: 1px white;
+    color: white;
+  }
+  .category p {
+    font-size: 6vw;
+    padding: 4%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .rules {
+    padding: 5%;
+    color: white;
+    font-size: 5vw;
+  }
+
+  .imgCat {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+  .button {
+    background-color: #ac2020; /* Red */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 7% 13%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  footer {
+    padding: 10% 0 0 5%;
+    color: white;
+    display: inline-block;
+  }
+  footer ul li a {
+    padding-top: 20px;
+    font-family: "Patua One", cursive;
+    font-size: 4vw;
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 482px) {
+  body {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 0 5%;
+  }
+  .logoBox {
+    margin-top: 2%;
+    height: 60px;
+    width: 20%;
+    background: #1b1b1b;
+    align-items: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .logoBox p {
+    font-size: 5px;
+  }
+
+  body h1 {
+    width: 40%;
+    padding: 3%;
+    padding-bottom: 0;
+    font-size: 6vw;
+    color: aliceblue;
+    font-family: "Changa One";
+  }
+  .category {
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+  }
+  .category p {
+    font-size: 2vw;
+    padding: 0 4%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .imgCat {
+    display: none;
+  }
+  .rules {
+    padding: 2% 5%;
+    color: white;
+    font-size: 1.5vw;
+  }
+  .button {
+    background-color: #ac2020; /* Red */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 5%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  footer {
+    padding-top: 3%;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    zoom: 1;
+  }
+  footer ul li {
+    font-family: "Patua One", cursive;
+    display: inline;
+    padding-right: 20px;
+  }
+  footer ul li a {
+    font-size: 1vw;
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+}
