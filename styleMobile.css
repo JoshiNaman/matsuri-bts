@@ -2,19 +2,16 @@
   #deskNav {
     display: none;
   }
+  #deskLogo {
+    display: none;
+  }
+
   body {
     background-color: rgb(3, 3, 3);
   }
   .logoBox {
-    border: 1px solid white;
-    margin: 30% 20%;
-    padding: 5%;
-    color: aliceblue;
-    font-size: 40px;
-  }
-  .logoBox p {
-    text-align: right;
-    font-size: 10px;
+    margin: 20% 20%;
+    width: 60%;
   }
   .frontDesc {
     border: 1px solid white;
@@ -30,12 +27,20 @@
     border: 1px solid white;
     font-weight: 900;
     font-size: 6vw;
+    padding: 5% 5%;
     color: white;
     display: inline-block;
-    padding: 5% 5%;
     margin: 3%;
     border-radius: 5px;
+    margin-left: 10%;
   }
+
+  .button {
+    border: 2px solid #070707;
+    background-color: black;
+    color: white;
+  }
+
   .video {
     background-color: black;
   }
@@ -52,5 +57,18 @@
   .about p {
     padding: 4%;
     font-family: "Montserrat", sans-serif;
+  }
+
+  footer {
+    padding: 10% 0 0 5%;
+    color: white;
+    display: inline-block;
+  }
+  footer ul li a {
+    padding-top: 20px;
+    font-family: "Patua One", cursive;
+    font-size: 4vw;
+    color: #f2f2f2;
+    text-decoration: none;
   }
 }

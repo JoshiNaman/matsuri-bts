@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Matsuri is the ultimate gathering of original storytellers and movie buffs seeking new voices and fresh perspectives." />
+    <meta name="robots" content="index, follow">
+    <link rel="apple-touch-icon" sizes="180x180" href="components/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="components/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="components/favicon-16x16.png">
+    <link rel="manifest" href="components/site.webmanifest">
     <link rel="stylesheet" href="styleMobile.css">
     <link rel="stylesheet" href="styleDesk.css">
     <link rel="stylesheet" href="navFooter.css">
@@ -22,9 +29,9 @@
         </label>
         <ul>
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="category.html">Filmmaking</a></li>
-            <li><a href="planet.html">Debate </a></li>
-            <li><a href="purchase.html">Poster Making</a></li>
+            <li><a href="category.html">Competitions</a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#partners">Partners</a></li>
         </ul>
     </nav>
 
@@ -33,75 +40,98 @@
 
     <div class="sidebar" id="deskNav">
         <a href="#home" style="color: #5a5a5a;"><i class="fa fa-fw 	fa fa-home"></i> </a>
-        <a href="#home" style="color: #459fe9;"><i class="fa fa-fw 	fa fa-facebook-official"></i> </a>
-        <a href="#services" style="color: #ff1f3d;"><i class="fa fa-fw fa fa-youtube-play"></i> </a>
-        <a href="#clients" style="color:purple;"><i class="fa fa-fw fa-instagram"></i> </a>
+        <a href="https://www.facebook.com/Behindthescenesmit/" style="color: #459fe9;"><i
+                class="fa fa-fw 	fa fa-facebook-official"></i> </a>
+        <a href="https://www.youtube.com/channel/UCrjZ9pp9ApC8VznqbxuD7XA" style="color: #ff1f3d;"><i
+                class="fa fa-fw fa fa-youtube-play"></i> </a>
+        <a href="https://www.instagram.com/behind.the.scenes.films/" style="color:purple;"><i
+                class="fa fa-fw fa-instagram"></i> </a>
         <a href="#contact"><i class="fa fa-fw fa-envelope"></i> </a>
     </div>
 
     <!--Side nav ends-->
 
 
-    <div class="logoBox" style="color: aliceblue;border: 1px solid white;">
-        <h4>MATSURI </h4>
-        <p>Organised by Behind The Scenes Filmmaking Club</p>
+    <div class="logoBox">
+        <img id= "deskLogo" src="components/BTS-matsuri-logo-white.png" alt="MATSURI by Behind The Scenes" height="60%">
+        <img id= "mobLogo" src="components/BTS-matsuri-logo-white.png" alt="MATSURI by Behind The Scenes" width="100%">
+
     </div>
 
     <div class="frontDesc">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard
-        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-        specimen
-        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-        essentially
-        unchanged.
+        <b>MATSURI</b>, a flagship event by Behind The Scenes, and one of a kind Film Festival being held in Manipal for the first time. 
+        <b>MATSURI</b> aspires to provide a common platform for the world's cinemas, cinema enthusiasts and artists to showcase the best in film art; to contribute to
+        the understanding and enjoyment of different film cultures in the context of their social and cultural ethos.
     </div>
     <div class="bigBox">
         <div class="categories">
-            FILMMAKING
+            <button class="button button1" onclick="window.location.href='category.html'">FILMMAKING</button>
         </div>
         <div class="categories">
-            debate
+            <button class="button button1" onclick="window.location.href='AdMaking.html'">AD FILMS</button>
         </div>
         <div class="categories">
-            POSTER
+            <button class="button button1" onclick="window.location.href='Writing.html'">WRITING</button>
         </div>
         <div class="categories">
-            Trivia
+            <button class="button button1" onclick="window.location.href='category.html'">EDITING</button>
         </div>
         <div class="categories">
-            ACTING
+            <button class="button button1" onclick="window.location.href='PosterMaking.html'">ALT POSTERS</button>
         </div>
         <div class="categories">
-            POSTER
+            <button class="button button1" onclick="window.location.href='Acting.html'">ACTING</button>
         </div>
         <div class="categories">
-            Panel Discussion
+            <button class="button button1" onclick="window.location.href='category.html'">TRIVIA</button>
         </div>
         <div class="categories">
-            DEBATE
+            <button class="button button1" onclick="window.location.href='debate.html'">DEBATE</button>
         </div>
     </div>
-    <div 
+    <div class="grid-container about-us">
 
-    <div class="grid-container">
-    
-        <div class="grid-child about">
+        <div class="grid-child about" id="abt">
             <h4>About Us</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            standard
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-            specimen
-            book.</p>
+            <p>Behind The Scenes is one of the fastest-growing film-making clubs in Manipal. It has a record of making some of the best
+            short-film, which have garnered praises for results in competitions like Mood Indigo or the Lift Off film festival.</p>
         </div>
-    
+
         <div class="grid-child video">
-        <iframe width="100%" height="315"
-            src="https://www.youtube.com/embed/LOLfVEpc--4?autoplay=1&mute=1?playlist=LOLfVEpc--4&loop=1">
-        </iframe>
+            <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/LOLfVEpc--4?autoplay=1&mute=1?playlist=LOLfVEpc--4&loop=1">
+            </iframe>
+        </div>
+
     </div>
-    
-    </div>
+    <div id="partners">
+    <h4 style="text-align: center; font-size: 300%;">OUR PARTNERS</h4>
+    <div class="grid-container our-partners">
+        <div class="grid-child partnersDiv pone"> 
+            
+        </div>
+        <div class="grid-child partnersDiv ptwo">
+        
+        </div>
+        </div>
+        </div>
+
+
+    <footer>
+        <div>
+            <ul style="list-style-type:none;">
+                <li><a class="" href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="planet.html">Contact Us </a></li>
+                <li id="footerIcons">
+                    <a href="https://www.facebook.com/Behindthescenesmit/" style="color: #459fe9;"><i class="fa fa-fw 	fa fa-facebook-official"></i></a>
+                    <a href="https://www.instagram.com/behind.the.scenes.films/" style="color:purple;"><i class="fa fa-fw fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCrjZ9pp9ApC8VznqbxuD7XA" style="color: #ff1f3d;"><i class="fa fa-fw fa fa-youtube-play"></i></a>
+                </li>
+                <li><a>Behind The Scenes Films,MIT, Manipal!</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

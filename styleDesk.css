@@ -11,16 +11,13 @@
   #mobNav {
     display: none;
   }
+  #mobLogo {
+    display: none;
+  }
   .logoBox {
     width: 40%;
-    border: 1px solid white;
-    margin: 8%;
-    size: 20%;
-    font-size: 4vw;
-  }
-  .logoBox p {
-    text-align: right;
-    font-size: 1.5vw;
+    margin: 5%;
+    margin-bottom: 0;
   }
 
   .frontDesc {
@@ -63,41 +60,71 @@
     padding: 0px 10px;
   }
 
+  .bigBox {
+    align-self: center;
+    width: 75%;
+    margin-left: 10%;
+    background-image: url("components/catBG.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
   .categories {
     min-width: 20%;
     position: inherit;
     font-family: "Pacifico", cursive;
     display: inline-block;
     padding: 10% 5%;
-    margin: 0px;
+    margin: 10px;
     border-radius: 5px;
     text-align: center;
     background: black00;
     vertical-align: auto;
-    font-size: 200%;
+    font-size: 150%;
   }
 
   .categories:hover {
     color: purple;
-    background-color: black;
+    text-decoration: underline;
+    background-color: rgba(197, 191, 191, 0.363);
   }
 
-  .bigBox {
-    border: 1px solid white;
-    align-self: center;
-    width: 75%;
-    margin-left: 10%;
-    background-image: url("components/catBG.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
+  .button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 150%;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #f1f1f14f;
+  }
+
+  .button1 {
+    background-color: white;
+    border: 2px solid #070707;
+    color: black;
+  }
+
+  .button1:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+  }
+  .about-us {
+    margin-top: 200px;
+    margin-bottom: 100px;
   }
   .grid-child {
     background-color: #f1f1f115;
@@ -110,11 +137,48 @@
   .about h4 {
     font-family: "Patua One", cursive;
     font-size: 3vw;
+    margin: 0;
   }
 
   .about p {
     font-size: 1.5vw;
     padding: 0 4%;
     font-family: "Montserrat", sans-serif;
+  }
+
+  #partners {
+    font-family: "Patua One", cursive;
+  }
+  .partnersDiv {
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+  .pone {
+    margin-right: 0;
+  }
+  .ptwo {
+    margin-left: 0;
+  }
+
+  footer {
+    padding-top: 3%;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    zoom: 1;
+  }
+  footer ul li {
+    font-family: "Patua One", cursive;
+    display: inline;
+    padding-right: 20px;
+  }
+  footer ul li a {
+    font-size: 1vw;
+    color: #f2f2f2;
+    text-decoration: none;
   }
 }

@@ -3,10 +3,11 @@
   .logoBox {
     width: 40%;
     color: aliceblue;
-    border: 1px solid white;
-    margin: 8%;
     size: 20%;
     font-size: 4vw;
+  }
+  #deskLogo {
+    display: none;
   }
   body {
     background-color: rgb(8, 8, 8);
@@ -87,19 +88,9 @@
     color: white;
     padding: 0 5%;
   }
-  .logoBox {
-    margin-top: 2%;
-    height: 60px;
-    width: 20%;
-    background: #1b1b1b;
-    align-items: right;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  #mobLogo {
+    display: none;
   }
-  .logoBox p {
-    font-size: 5px;
-  }
-
   body h1 {
     width: 40%;
     padding: 3%;
