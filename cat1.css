@@ -79,7 +79,6 @@
 
 @media (min-width: 482px) {
   body {
-    background-image: url("components/fmaudition.jpg");
     background-size: 70%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -100,6 +99,7 @@
     font-family: "Changa One";
   }
   .category {
+    background-color: rgba(0, 0, 0, 0.274);
     width: 40%;
     border-radius: 8px;
     border: 1px solid white;
