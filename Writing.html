@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="cat1.css">
+    <link rel="stylesheet" href="writerCss.css">
     <link rel="stylesheet" href="navFooter.css">
     <style>
         @media (min-width: 482px) {
@@ -32,24 +33,58 @@
             <br>
             <div class="rules">             
                 <b>
-            Rules for writing event:-
-
+            Rules:
             </b>
             <ul style="padding: 3%;">
-            <li>Eligibility: open to all across India</li>
-            <li>Word Limit: minimum 1200 words</li>
+            <li>Eligibility: Open to All</li>
+            <li><b>Word Limit: none</b></li>
             <li>Number of entries: One story per participant</li>
             <li>Format: Writers must use the following prompt in their story - prompt idea</li>
+            <li>1. Write a story/script including these three elements - a person with a troubling past, a book and the phrase 'I'll
+            look into it'</li>
+            <li>2. Picture Prompt: Write a story/script related to atleast two pictures from the given three pictures in your story.</li>
             <li>It can be written in either a short story or script format. Please submit a pdf of your entry.</li>
-            <li>Genre: Any genre || Language: English</li>
-            <li>Starting date: || Last date of submission:</li>
+            <li>Language: English, other languages are also accepted but they need to be supported with an English translation</li>
+            <li>Submission Date: September 7th, 2021</li>
             <li>Entry fee: ₹50</li>
-
-
         </ul>
         </div>
+        <div class="picCarousel">
+            <div class="slideshow-container">
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="components/write1.jpeg" style="width:100%">
+                    <div class="text">Picture One</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="components/write2.jpeg" style="width:100%">
+                    <div class="text">Picture Two</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="components/write3.jpeg" style="width:100%">
+                    <div class="text" style="color: black;">Picture Three</div>
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
 
-        <button class="button button1" onclick='window.open("https://forms.gle/8X7EjYRwF8hL39i7A")'>Register</button>
+        </div>
+
+        <button class="button button1" onclick='window.open("https://forms.gle/Sobeym2GHXaLSxj16")'>Register</button>
     </div>
 <footer>
     <div>
@@ -70,5 +105,33 @@
     </div>
 </footer>
 </body>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
 
 </html>
